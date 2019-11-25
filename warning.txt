@@ -1,0 +1,3 @@
+** CONFIG-CLIENT-APP:
+	- bootstrap.properties: management.endpoints.web.exposure.include=refresh
+	- POST: http://localhost:8080/actuator/refresh
